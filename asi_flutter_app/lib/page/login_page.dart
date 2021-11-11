@@ -1,6 +1,5 @@
 import 'package:email_validator/email_validator.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_node_firebase_notes_app/page/notes_page.dart';
 import 'package:flutter_node_firebase_notes_app/widgets/snackbar.dart';
@@ -44,11 +43,8 @@ class LoginScreenAuthState extends State<LoginScreenAuth> {
                       borderRadius: BorderRadius.circular(32.0),
                       child: Image.asset('assets/images/notesu.png')),
                 ),
-                // Container(
-                //     height: scaler.getHeight(30),
-                //     child: Image.asset('assets/images/notesu.png')),
                 Text(
-                  "notesu",
+                  "notesu app",
                   style: TextStyle(
                     fontFamily: 'Agency',
                     color: Color(0xFF0001e36),
@@ -119,12 +115,6 @@ class LoginScreenAuthState extends State<LoginScreenAuth> {
                         } else if (password.length < 6) {
                           return 'Password length requires 6 or more characters.';
                         }
-
-                        // bool isPasswordValid =
-                        //     ;
-                        // return (isPasswordValid)
-                        //     ? null
-                        //     : 'The password must be provided.';
                       },
                     ),
                   ),

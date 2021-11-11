@@ -9,10 +9,6 @@ import 'package:http/http.dart' as http;
 import 'package:uuid/uuid.dart';
 
 class AddEditNotePage extends StatefulWidget {
-  //   const NotesPage({Key? key, required User user})
-  //   : _user = user,
-  //     super(key: key);
-
   final User user;
   final Note? note;
 

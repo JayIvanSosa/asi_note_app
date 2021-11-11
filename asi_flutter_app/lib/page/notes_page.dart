@@ -23,21 +23,8 @@ class NotesPage extends StatefulWidget {
 }
 
 class _NotesPageState extends State<NotesPage> {
-  //late User _user;
-  //late int _currentIndex;
-
-//   @override
-//   void initState() {
-//     _user = widget._user;
-//     //_currentIndex = widget._screenIndex;
-//     //_pageController = PageController(initialPage: widget._screenIndex);
-//     createUserInFireStore();
-//     super.initState();
-//   }
-
   List<Note> notes = [];
   bool isLoading = false;
-  //comment
 
   @override
   void initState() {
