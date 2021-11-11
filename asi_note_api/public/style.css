@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+body{
+    background-color: black;
+}
+
+form {
+    width: 400px;
+    border: solid 1px #EBEBEB;
+    padding: 5rem;
+    background-color:whitesmoke;
+}
+
+button {
+    margin-top: 2rem;
+}
